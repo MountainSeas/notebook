@@ -1,0 +1,28 @@
+@import 'val';
+.RichEditor_Wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .header{
+    .title_wrapper{
+      // display: inline-block;
+      border-style: solid;
+      border-color: $dividing-line-color;
+      border-width: 0 0 1px 0;
+      margin: 0 0 10px 0;
+      padding: 0 0 5px 0;
+    }
+    .title{
+      border: none;
+      outline: none;
+      // height: 28px;
+      // border-bottom: 1px solid $dividing-line-color;
+    }
+    .time{
+      color: $font-secondary-color;
+    }
+  }
+  .main{
+    flex: 1;
+  }
+}

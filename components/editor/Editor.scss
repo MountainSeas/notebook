@@ -1,0 +1,13 @@
+@import 'val';
+.RichEditor{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .control{
+    // position: absolute;
+  }
+  .editor{
+    flex: 1;
+    overflow: auto;
+  }
+}

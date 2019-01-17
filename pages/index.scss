@@ -1,0 +1,24 @@
+@import 'val';
+.Index-Wrapper{
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  .caption{
+    width: 200px;
+  }
+  .bookmark{
+    width: 400px;
+  }
+  .page{
+    flex: 1;
+    overflow: auto;
+    border-style: solid;
+    border-color: $dividing-line-color;
+    border-width: 1px 1px 1px 0;
+    padding: $margin-width;
+  }
+  .navigationList{
+    display: flex;
+    flex-direction: column;
+  }
+}

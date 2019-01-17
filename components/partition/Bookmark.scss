@@ -1,0 +1,17 @@
+@import 'val';
+.layout{
+  display: flex;
+  height: 100%;
+  .item{
+    flex: 1;
+  }
+  .pageMark{
+    border-right: none;
+  }
+}
+.icon-arrow,
+.icon-search{
+  width: $icon-size;
+  height: $icon-size;
+  fill: $icon-color;
+}

@@ -1,0 +1,55 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "notebook",
+  "main": "./server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-constant-elements": "^7.0.0-beta.52",
+    "@svgr/webpack": "^2.1.0",
+    "@types/draft-js": "^0.10.23",
+    "@types/react-bootstrap": "^0.32.10",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "1.1.0",
+    "classnames": "^2.2.6",
+    "draft-js": "^0.10.5",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "next": "^7.0.2",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "tslint": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.1",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "16.0.8",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.11.0",
+    "typescript": "3.1.1",
+    "url-loader": "^1.0.1",
+    "webpack-merge": "^4.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tucchun/notebook.git"
+  },
+  "keywords": [
+    "notebook",
+    "react",
+    "ssr",
+    "nextjs"
+  ],
+  "author": "tucchun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tucchun/notebook/issues"
+  },
+  "homepage": "https://gitlab.com/tucchun/notebook#README"
+}

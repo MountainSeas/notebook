@@ -1,0 +1,20 @@
+@import 'val';
+.HeaderComponent-Wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-style: solid;
+  border-color: $dividing-line-color;
+  border-width: 1px 0;
+  padding: 0 $margin-width;
+  .leftIcon,
+  .rightIcon{
+    line-height: 1;
+    margin: 0 $margin-width 0 0;
+  }
+  .title{
+    flex: 1;
+    // text-align: center;
+  }
+}

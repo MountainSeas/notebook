@@ -1,0 +1,19 @@
+@import 'val';
+.contextmenuItem{
+  width: 150px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid $dividing-line-color;
+  &:hover{
+    background-color: $font-third-color;
+    color: $white-color;
+  }
+}
+.contextmenu{
+  position: fixed;
+  border-radius: 7px;
+  border: 1px solid $dividing-line-color;
+  background-color: $bg-color;
+  z-index: 9999;
+  overflow: hidden;
+}

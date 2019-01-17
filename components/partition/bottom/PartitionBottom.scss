@@ -1,0 +1,23 @@
+@import 'val';
+$size: 20px;
+.PartitionBottom-Wrapper{
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: $dividing-line-color;
+  border-width: 1px 0;
+  height: 40px;
+  .icon-plus{
+    width: $icon-size;
+    height: $icon-size;
+    fill: $icon-color;
+    margin-left: $margin-width;
+  }
+  .btnTxt{
+    height: $size;
+    line-height: $size;
+    font-size: 16px;
+    padding-left: 7px;
+    color: $icon-color;
+  }
+}
